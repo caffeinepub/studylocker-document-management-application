@@ -1,0 +1,14 @@
+{
+  "frontend/src/App.tsx": "Main application component that handles authentication flow, profile setup, and renders either LoginPage or Dashboard based on user state with theme provider.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for all backend operations including user profile management and document CRUD operations with proper error handling and cache invalidation.",
+  "frontend/src/pages/LoginPage.tsx": "Beautiful Hindi language login page with hero section, feature highlights, and Internet Identity authentication.",
+  "frontend/src/pages/Dashboard.tsx": "Main dashboard page displaying user's documents with upload functionality, search, and document management features.",
+  "frontend/src/components/Header.tsx": "Sticky header component with logo, theme toggle, and user menu with logout functionality.",
+  "frontend/src/components/ProfileSetupModal.tsx": "Modal dialog for first-time user profile setup requiring name input before accessing the application, with close button disabled to ensure profile completion.",
+  "frontend/src/components/DocumentUpload.tsx": "Document upload dialog with file selection, progress tracking, and validation for supported file types up to 10MB.",
+  "frontend/src/components/DocumentList.tsx": "Grid layout component displaying filtered documents with search functionality and preview capability.",
+  "frontend/src/components/DocumentCard.tsx": "Individual document card with thumbnail, metadata, and actions (preview, download, delete) with confirmation dialog.",
+  "frontend/src/components/DocumentPreview.tsx": "Full-screen preview dialog supporting images and PDFs with download option and fallback for unsupported types.",
+  "frontend/src/components/EmptyState.tsx": "Empty state component displayed when user has no documents, encouraging first upload with illustration.",
+  "frontend/src/index.css": "Enhanced OKLCH color system with vibrant blue and indigo theme for both light and dark modes."
+}
